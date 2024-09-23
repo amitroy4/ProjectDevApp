@@ -79,23 +79,33 @@
                         </div>
                         <!--end:Menu sub-->
                     </div>
-                    <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                    <!--begin:Menu item-->
+                    <div class="menu-item pt-5">
+                        <!--begin:Menu content-->
+                        <div class="menu-content">
+                            <span class="menu-heading fw-bold text-uppercase fs-7">Pages</span>
+                        </div>
+                        <!--end:Menu content-->
+                    </div>
+                    <!--end:Menu item-->
+                    <!--begin:Menu item-->
+                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                         <!--begin:Menu link-->
                         <span class="menu-link">
                             <span class="menu-icon">
-                                <i class="ki-duotone ki-element-11 fs-2">
+                                <i class="ki-duotone ki-address-book fs-2">
                                     <span class="path1"></span>
                                     <span class="path2"></span>
                                     <span class="path3"></span>
-                                    <span class="path4"></span>
                                 </i>
                             </span>
-                            <span class="menu-title">Projects</span>
+                            <span class="menu-title">Project List</span>
                             <span class="menu-arrow"></span>
                         </span>
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
                         <div class="menu-sub menu-sub-accordion">
+
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
@@ -108,9 +118,11 @@
                                 <!--end:Menu link-->
                             </div>
                             <!--end:Menu item-->
+
                         </div>
                         <!--end:Menu sub-->
                     </div>
+                    <!--end:Menu item-->
 
                     <!--end:Menu item-->
                 </div>

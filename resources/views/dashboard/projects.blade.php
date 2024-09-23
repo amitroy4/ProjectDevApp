@@ -50,9 +50,15 @@
 
     <div class="card shadow m-8">
         <div class="card-body">
-            <h5 class="card-title"><div class="d-flex justify-content-end mr-5">
-        <button type="button" class="btn btn-secondary">Add Project</button>
-    </div></h5>
+            <h5 class="card-title">
+                <div class="d-flex justify-content-end mr-5">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Add Project
+                    </button>
+                </div>
+            </h5>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
                     <thead>
@@ -76,7 +82,10 @@
                                 </select>
                             </td>
                             <td><span class="badge badge-success">Active</span></td>
-                            <td><a href="#"><i class="fa-solid fa-eye text-primary p-2"></i></a><a href="#"><i class="fa-solid fa-pen-to-square text-danger p-2"></i></a><a href="#"><i class="fa-solid fa-desktop text-warning p-2"></i></a><a href="#"><i class="fa-solid fa-laptop-code text-info p-2"></i></a></td>
+                            <td><a href="#"><i class="fa-solid fa-eye text-primary p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-pen-to-square text-danger p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-desktop text-warning p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-laptop-code text-info p-2"></i></a></td>
                         </tr>
                         <tr>
                             <td>Project Beta</td>
@@ -89,7 +98,10 @@
                                 </select>
                             </td>
                             <td><span class="badge badge-warning">In Progress</span></td>
-                            <td><a href="#"><i class="fa-solid fa-eye text-primary p-2"></i></a><a href="#"><i class="fa-solid fa-pen-to-square text-danger p-2"></i></a><a href="#"><i class="fa-solid fa-desktop text-warning p-2"></i></a><a href="#"><i class="fa-solid fa-laptop-code text-info p-2"></i></a></td>
+                            <td><a href="#"><i class="fa-solid fa-eye text-primary p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-pen-to-square text-danger p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-desktop text-warning p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-laptop-code text-info p-2"></i></a></td>
                         </tr>
                         <tr>
                             <td>Project Gamma</td>
@@ -102,7 +114,10 @@
                                 </select>
                             </td>
                             <td><span class="badge badge-danger">On Hold</span></td>
-                            <td><a href="#"><i class="fa-solid fa-eye text-primary p-2"></i></a><a href="#"><i class="fa-solid fa-pen-to-square text-danger p-2"></i></a><a href="#"><i class="fa-solid fa-desktop text-warning p-2"></i></a><a href="#"><i class="fa-solid fa-laptop-code text-info p-2"></i></a></td>
+                            <td><a href="#"><i class="fa-solid fa-eye text-primary p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-pen-to-square text-danger p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-desktop text-warning p-2"></i></a><a href="#"><i
+                                        class="fa-solid fa-laptop-code text-info p-2"></i></a></td>
                         </tr>
                         <!-- Add more rows as needed -->
                     </tbody>
@@ -113,6 +128,26 @@
 
 
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

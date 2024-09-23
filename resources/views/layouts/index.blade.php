@@ -95,10 +95,7 @@ License: For each use you must have a valid license purchased only from above li
                     <!--begin::Content wrapper-->
                     <div class="d-flex flex-column flex-column-fluid">
 
-
                         @yield('content')
-
-
 
                     </div>
                     <!--end::Content wrapper-->

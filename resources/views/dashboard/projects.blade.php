@@ -777,17 +777,6 @@
                                                 placeholder="Enter card number" name=""
                                                 value="" />
                                             <!--end::Input-->
-                                            <!--begin::Card logos-->
-                                            <div
-                                                class="position-absolute translate-middle-y top-50 end-0 me-5">
-                                                <img src="assets/media/svg/card-logos/visa.svg"
-                                                    alt="" class="h-25px" />
-                                                <img src="assets/media/svg/card-logos/mastercard.svg"
-                                                    alt="" class="h-25px" />
-                                                <img src="assets/media/svg/card-logos/american-express.svg"
-                                                    alt="" class="h-25px" />
-                                            </div>
-                                            <!--end::Card logos-->
                                         </div>
                                         <!--end::Input wrapper-->
                                     </div>
